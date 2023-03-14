@@ -1,5 +1,13 @@
 import requests
+pa = '1212'
+pas1 = input('Enter YOur Pass :')
+if pas1 == pa:
+    print('ok')
+else:
+    print('No')
+    exit()
 email = input('Enter Your Email : ')
+
 url ='https://login.aol.com/account/module/create?validateField=yid'
 haeaders ={
     'accept': '*/*',
